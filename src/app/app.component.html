@@ -11,4 +11,11 @@
         {{quete}}
       </li>
     </ul>
+
+    <ul>
+      Посилання на більш детальну інформацію про цю людину:
+      <li *ngFor="let link of links">
+        <a href="{{link[0]}}">{{link[1]}}</a>
+      </li>
+    </ul>
 </div>
